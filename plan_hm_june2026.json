@@ -1,0 +1,515 @@
+{
+  "version": "1.0",
+  "meta": {
+    "id": "hm-jun2026-advanced",
+    "athlete": "Advanced Amateur Runner",
+    "event": "Półmaraton — 20 czerwca 2026",
+    "eventDate": "2026-06-20",
+    "planStartDate": "2026-04-27",
+    "planEndDate": "2026-06-20",
+    "createdAt": "2026-04-24T00:00:00Z",
+    "updatedAt": "2026-04-24T00:00:00Z",
+    "totalWeeks": 8,
+    "generatedBy": "Claude Coach"
+  },
+  "preferences": {
+    "run": "kilometers",
+    "firstDayOfWeek": "monday"
+  },
+  "assessment": {
+    "foundation": {
+      "raceHistory": ["5k 18:26 (Mar 15, 2026)", "HM 1:24:36 @ 3:58/km (Mar 22, 2026)"],
+      "peakTrainingLoad": "~60km/week",
+      "foundationLevel": "advanced",
+      "yearsInSport": 5
+    },
+    "currentForm": {
+      "weeklyVolume": { "total": 60, "run": 60 },
+      "longestSessions": { "run": 21 },
+      "consistency": 16
+    },
+    "strengths": [
+      { "sport": "run", "evidence": "HM HR 163.8 bpm avg — right at LTHR, very controlled execution" },
+      { "sport": "run", "evidence": "Strong aerobic base — easy runs genuinely easy at 5:00-5:20/km" }
+    ],
+    "limiters": [
+      { "sport": "run", "evidence": "Threshold durability — can do threshold reps but sustained HM-pace endurance can improve" }
+    ],
+    "constraints": ["Monday: strength only", "Friday: off", "Saturday: group track (unpredictable quality)"]
+  },
+  "zones": {
+    "run": {
+      "hr": {
+        "lthr": 165,
+        "zones": [
+          { "zone": 1, "name": "Recovery", "hrLow": 0, "hrHigh": 134 },
+          { "zone": 2, "name": "Easy/Aerobic", "hrLow": 135, "hrHigh": 150 },
+          { "zone": 3, "name": "Steady", "hrLow": 150, "hrHigh": 160 },
+          { "zone": 4, "name": "Threshold", "hrLow": 161, "hrHigh": 166 },
+          { "zone": 5, "name": "VO2max", "hrLow": 167, "hrHigh": 180 }
+        ]
+      },
+      "pace": {
+        "easy": "4:45–5:20/km",
+        "steady": "4:10–4:25/km",
+        "hmPace": "3:53–3:57/km",
+        "threshold": "3:50–3:55/km",
+        "vo2": "3:38–3:42/km",
+        "speed": "3:20–3:30/km"
+      }
+    }
+  },
+  "raceGoal": {
+    "primary": "Sub 1:23:00 (3:56/km)",
+    "stretch": "Sub 1:22:00 (3:53/km)",
+    "basis": "March HM run at 3:58/km with HR 163.8 avg (LTHR). 8 weeks of race-specific work should yield 1-2 min improvement.",
+    "hmTargetPace": "3:53–3:56/km"
+  },
+  "phases": [
+    {
+      "name": "Build / Sharpen",
+      "startWeek": 1,
+      "endWeek": 3,
+      "focus": "Increase threshold durability and volume slightly. Tempo runs extended. VO2 work maintained via Saturday track.",
+      "weeklyKmRange": { "low": 60, "high": 68 }
+    },
+    {
+      "name": "Recovery",
+      "startWeek": 4,
+      "endWeek": 4,
+      "focus": "Planned recovery week. Volume drops 40%. Keep one short quality session.",
+      "weeklyKmRange": { "low": 38, "high": 42 }
+    },
+    {
+      "name": "Race-Specific Peak",
+      "startWeek": 5,
+      "endWeek": 6,
+      "focus": "HM-pace work. Longer threshold efforts. Race-pace confidence. Peak volume week.",
+      "weeklyKmRange": { "low": 62, "high": 70 }
+    },
+    {
+      "name": "Taper",
+      "startWeek": 7,
+      "endWeek": 8,
+      "focus": "Volume drops 35-50%. Maintain intensity. Sharpen legs. Race day.",
+      "weeklyKmRange": { "low": 30, "high": 45 }
+    }
+  ],
+  "weeks": [
+    {
+      "weekNumber": 1,
+      "startDate": "2026-04-27",
+      "endDate": "2026-05-03",
+      "phase": "Build / Sharpen",
+      "focus": "Foundation — extend threshold duration, keep Saturday wild card",
+      "targetKm": 62,
+      "isRecoveryWeek": false,
+      "days": [
+        {
+          "date": "2026-04-27",
+          "dayOfWeek": "Monday",
+          "workouts": [{ "id": "w1-mon", "sport": "strength", "type": "strength", "name": "Siłownia", "description": "Regularny trening siłowy. Skup się na core, glutes, stabilizacja bioder.", "completed": false }]
+        },
+        {
+          "date": "2026-04-28",
+          "dayOfWeek": "Tuesday",
+          "workouts": [{ "id": "w1-tue", "sport": "run", "type": "threshold", "name": "Threshold Cruise Intervals", "description": "Rozgrzewka 2km easy\nGłówna: 4 x 2km @ 3:52–3:55/km / 90\" trucht\nWychłodzenie: 2km easy\nŁącznie: ~14km\n\nCel: utrzymanie tempa progowego przez dłuższy czas z krótką przerwą. Jeśli 4. odcinek idzie dobrze — dobry znak.", "durationMinutes": 70, "distanceKm": 14, "primaryZone": "Zone 4", "completed": false }]
+        },
+        {
+          "date": "2026-04-29",
+          "dayOfWeek": "Wednesday",
+          "workouts": [{ "id": "w1-wed", "sport": "run", "type": "easy", "name": "Easy + strides", "description": "11–12km easy @ 5:00–5:20/km\nOstatnie 1,5km: 6 x 20\" przyspieszenia (stride) / 40\" trucht\n\nNogi powinny być lekkie — to dzień regeneracji między jakościowymi.", "durationMinutes": 60, "distanceKm": 12, "primaryZone": "Zone 2", "completed": false }]
+        },
+        {
+          "date": "2026-04-30",
+          "dayOfWeek": "Thursday",
+          "workouts": [{ "id": "w1-thu", "sport": "run", "type": "steady", "name": "Steady Progression Run", "description": "Łącznie: 13km\n— Pierwsze 7km: easy @ 5:00–5:15/km\n— Następne 4km: steady @ 4:15–4:25/km\n— Ostatnie 2km: easy\n\nUczysz ciało zmiany biegu bez kryzysu.", "durationMinutes": 68, "distanceKm": 13, "primaryZone": "Zone 2-3", "completed": false }]
+        },
+        {
+          "date": "2026-05-01",
+          "dayOfWeek": "Friday",
+          "workouts": [{ "id": "w1-fri", "sport": "rest", "type": "rest", "name": "Odpoczynek", "description": "Pełny odpoczynek lub lekkie rozciąganie/rolowanie.", "completed": false }]
+        },
+        {
+          "date": "2026-05-02",
+          "dayOfWeek": "Saturday",
+          "workouts": [{ "id": "w1-sat", "sport": "run", "type": "track", "name": "Track — grupa (VO2 / threshold)", "description": "Trening z grupą — pozwól im poprowadzić intensywność.\nJeśli threshold: trzymaj się 3:50–3:55/km.\nJeśli VO2: 3:38–3:42/km z pełnymi przerwami.\n\nNie ścigaj się przez całą sesję — to środek tygodnia jakościowego.", "durationMinutes": 65, "distanceKm": 13, "primaryZone": "Zone 4-5", "completed": false }]
+        },
+        {
+          "date": "2026-05-03",
+          "dayOfWeek": "Sunday",
+          "workouts": [{ "id": "w1-sun", "sport": "run", "type": "long", "name": "Long Run Easy", "description": "18–20km @ 5:00–5:20/km\nMonotonnie easy. Nie wchodź w strefę steady.\n\nPo sobotnim treningu grupowym nogi mogą być ciężkie — to normalne.", "durationMinutes": 105, "distanceKm": 19, "primaryZone": "Zone 2", "completed": false }]
+        }
+      ],
+      "summary": { "totalKm": 62, "bySport": { "run": { "sessions": 5, "km": 71 } } }
+    },
+    {
+      "weekNumber": 2,
+      "startDate": "2026-05-04",
+      "endDate": "2026-05-10",
+      "phase": "Build / Sharpen",
+      "focus": "Tempo ciągłe — pierwszy dłuższy blok @ 4:00/km. Budowanie wytrzymałości progowej.",
+      "targetKm": 65,
+      "isRecoveryWeek": false,
+      "days": [
+        {
+          "date": "2026-05-04",
+          "dayOfWeek": "Monday",
+          "workouts": [{ "id": "w2-mon", "sport": "strength", "type": "strength", "name": "Siłownia", "description": "Trening siłowy. Zwróć uwagę na odpoczynek — zbliżamy się do szczytu obciążenia.", "completed": false }]
+        },
+        {
+          "date": "2026-05-05",
+          "dayOfWeek": "Tuesday",
+          "workouts": [{ "id": "w2-tue", "sport": "run", "type": "tempo", "name": "Continuous Tempo", "description": "Rozgrzewka 2,5km easy\nGłówna: 2 x 15min @ 3:52–3:55/km / 2' trucht\nWychłodzenie: 2km easy\nŁącznie: ~13km\n\nTempo ciągłe — bardziej wymagające niż interwały. Skup się na ekonomice biegu i oddechu.", "durationMinutes": 65, "distanceKm": 13, "primaryZone": "Zone 4", "completed": false }]
+        },
+        {
+          "date": "2026-05-06",
+          "dayOfWeek": "Wednesday",
+          "workouts": [{ "id": "w2-wed", "sport": "run", "type": "easy", "name": "Easy Recovery", "description": "10–11km easy @ 5:10–5:25/km\nBez żadnej intensywności. Czysta regeneracja po wczorajszym tempe.", "durationMinutes": 57, "distanceKm": 11, "primaryZone": "Zone 1-2", "completed": false }]
+        },
+        {
+          "date": "2026-05-07",
+          "dayOfWeek": "Thursday",
+          "workouts": [{ "id": "w2-thu", "sport": "run", "type": "threshold", "name": "HM Pace Reps", "description": "Rozgrzewka 2km easy\nGłówna: 3 x 3km @ 3:55–3:58/km (tempo półmaratońskie) / 2' trucht\nWychłodzenie: 2km easy\nŁącznie: ~13km\n\nTo jest twoje docelowe tempo wyścigu. Poczuj, jak komfortowo to siedzi. Powinno być 'trudno-komfortowo'.", "durationMinutes": 68, "distanceKm": 13, "primaryZone": "Zone 3-4", "completed": false }]
+        },
+        {
+          "date": "2026-05-08",
+          "dayOfWeek": "Friday",
+          "workouts": [{ "id": "w2-fri", "sport": "rest", "type": "rest", "name": "Odpoczynek", "description": "Pełny odpoczynek.", "completed": false }]
+        },
+        {
+          "date": "2026-05-09",
+          "dayOfWeek": "Saturday",
+          "workouts": [{ "id": "w2-sat", "sport": "run", "type": "track", "name": "Track — grupa", "description": "Trening z grupą. Jeśli to VO2: 5–6 x 1000m @ 3:38–3:42/km.\nJeśli threshold: 3–4 x 2km @ 3:50/km.\n\nDopasuj się do tempa grupy — to jest wartość social runningu.", "durationMinutes": 65, "distanceKm": 13, "primaryZone": "Zone 4-5", "completed": false }]
+        },
+        {
+          "date": "2026-05-10",
+          "dayOfWeek": "Sunday",
+          "workouts": [{ "id": "w2-sun", "sport": "run", "type": "long", "name": "Long Run z Progresją", "description": "20km łącznie:\n— Pierwsze 14km: easy @ 5:05–5:20/km\n— Ostatnie 6km: steady @ 4:15–4:25/km\n\nProgresja uczy ciało biegać mocno na zmęczonych nogach. Kluczowy bodziec dla HM.", "durationMinutes": 110, "distanceKm": 20, "primaryZone": "Zone 2-3", "completed": false }]
+        }
+      ],
+      "summary": { "totalKm": 65, "bySport": { "run": { "sessions": 5, "km": 65 } } }
+    },
+    {
+      "weekNumber": 3,
+      "startDate": "2026-05-11",
+      "endDate": "2026-05-17",
+      "phase": "Build / Sharpen",
+      "focus": "Szczyt obciążenia fazy build. Najdłuższy long run, najdłuższa sesja threshold.",
+      "targetKm": 68,
+      "isRecoveryWeek": false,
+      "days": [
+        {
+          "date": "2026-05-11",
+          "dayOfWeek": "Monday",
+          "workouts": [{ "id": "w3-mon", "sport": "strength", "type": "strength", "name": "Siłownia", "description": "Ostatni 'duży' trening siłowy przed taperem. Zachowaj intensywność.", "completed": false }]
+        },
+        {
+          "date": "2026-05-12",
+          "dayOfWeek": "Tuesday",
+          "workouts": [{ "id": "w3-tue", "sport": "run", "type": "threshold", "name": "Extended Threshold Intervals", "description": "Rozgrzewka 2,5km easy\nGłówna: 5 x 2km @ 3:50–3:53/km / 90\" trucht\nWychłodzenie: 2km easy\nŁącznie: ~15km\n\nNajwiększa sesja threshold w całym planie. Piąty odcinek testuje twoją wytrzymałość mentalną.", "durationMinutes": 75, "distanceKm": 15, "primaryZone": "Zone 4", "completed": false }]
+        },
+        {
+          "date": "2026-05-13",
+          "dayOfWeek": "Wednesday",
+          "workouts": [{ "id": "w3-wed", "sport": "run", "type": "easy", "name": "Easy + strides", "description": "11km easy @ 5:10–5:25/km\n6 x 20\" stride na końcu\n\nBez presji — to jest dzień regeneracji.", "durationMinutes": 57, "distanceKm": 11, "primaryZone": "Zone 2", "completed": false }]
+        },
+        {
+          "date": "2026-05-14",
+          "dayOfWeek": "Thursday",
+          "workouts": [{ "id": "w3-thu", "sport": "run", "type": "steady", "name": "Steady Medium-Long", "description": "14km łącznie:\n— 9km easy\n— 5km steady @ 4:10–4:20/km\n\nPrzygotowanie na weekend — nie forsuj.", "durationMinutes": 73, "distanceKm": 14, "primaryZone": "Zone 2-3", "completed": false }]
+        },
+        {
+          "date": "2026-05-15",
+          "dayOfWeek": "Friday",
+          "workouts": [{ "id": "w3-fri", "sport": "rest", "type": "rest", "name": "Odpoczynek", "description": "Pełny odpoczynek przed ciężkim weekendem.", "completed": false }]
+        },
+        {
+          "date": "2026-05-16",
+          "dayOfWeek": "Saturday",
+          "workouts": [{ "id": "w3-sat", "sport": "run", "type": "track", "name": "Track — grupa", "description": "Trening z grupą. Tydzień szczytu — daj z siebie wszystko.\nVO2: 800m lub 1000m reps. Threshold: 2km reps.\n\nZanotuj jak się czujesz — dane z tej sesji potwierdzą gotowość wyścigową.", "durationMinutes": 65, "distanceKm": 13, "primaryZone": "Zone 4-5", "completed": false }]
+        },
+        {
+          "date": "2026-05-17",
+          "dayOfWeek": "Sunday",
+          "workouts": [{ "id": "w3-sun", "sport": "run", "type": "long", "name": "Long Run — szczyt (22km)", "description": "22km easy @ 5:00–5:15/km\nBez progresji — czyste kilometry aerobowe.\n\nTo jest najdłuższy long run planu. Nabierz pewności siebie z odległości.", "durationMinutes": 115, "distanceKm": 22, "primaryZone": "Zone 2", "completed": false }]
+        }
+      ],
+      "summary": { "totalKm": 68, "bySport": { "run": { "sessions": 5, "km": 68 } } }
+    },
+    {
+      "weekNumber": 4,
+      "startDate": "2026-05-18",
+      "endDate": "2026-05-24",
+      "phase": "Recovery",
+      "focus": "Tydzień regeneracji — zmniejsz objętość o 40%, zachowaj jedną krótką jakościową sesję.",
+      "targetKm": 40,
+      "isRecoveryWeek": true,
+      "days": [
+        {
+          "date": "2026-05-18",
+          "dayOfWeek": "Monday",
+          "workouts": [{ "id": "w4-mon", "sport": "strength", "type": "strength", "name": "Siłownia — lekka", "description": "Lżejszy trening siłowy. Zmniejsz ciężary o 20%. Skup się na mobilności.", "completed": false }]
+        },
+        {
+          "date": "2026-05-19",
+          "dayOfWeek": "Tuesday",
+          "workouts": [{ "id": "w4-tue", "sport": "run", "type": "easy", "name": "Easy Recovery Run", "description": "9km easy @ 5:15–5:30/km\nBez intensywności. Nogi powinny odetchnąć po szczycie.", "durationMinutes": 48, "distanceKm": 9, "primaryZone": "Zone 1-2", "completed": false }]
+        },
+        {
+          "date": "2026-05-20",
+          "dayOfWeek": "Wednesday",
+          "workouts": [{ "id": "w4-wed", "sport": "run", "type": "easy", "name": "Easy + strides", "description": "9km easy\n6 x 20\" stride żeby utrzymać szybkość nóg\n\nNogi zaczną czuć się lepiej — to dobry znak.", "durationMinutes": 47, "distanceKm": 9, "primaryZone": "Zone 2", "completed": false }]
+        },
+        {
+          "date": "2026-05-21",
+          "dayOfWeek": "Thursday",
+          "workouts": [{ "id": "w4-thu", "sport": "run", "type": "threshold", "name": "Krótki quality check", "description": "Rozgrzewka 2km\nGłówna: 3 x 1km @ 3:53–3:58/km / 90\" (tempo półmaratońskie)\nWychłodzenie: 2km\nŁącznie: ~9km\n\nNie po to żeby się zmęczyć — po to żeby sprawdzić czy nogi są gotowe.", "durationMinutes": 48, "distanceKm": 9, "primaryZone": "Zone 3-4", "completed": false }]
+        },
+        {
+          "date": "2026-05-22",
+          "dayOfWeek": "Friday",
+          "workouts": [{ "id": "w4-fri", "sport": "rest", "type": "rest", "name": "Odpoczynek", "description": "Pełny odpoczynek.", "completed": false }]
+        },
+        {
+          "date": "2026-05-23",
+          "dayOfWeek": "Saturday",
+          "workouts": [{ "id": "w4-sat", "sport": "run", "type": "easy", "name": "Track — lekko", "description": "Jeśli idzie na track z grupą: biegnij jak chcesz, ale nie przesadź z intensywnością — to tydzień regeneracji.\nAlternatywa: 10km easy solo.", "durationMinutes": 55, "distanceKm": 10, "primaryZone": "Zone 2-3", "completed": false }]
+        },
+        {
+          "date": "2026-05-24",
+          "dayOfWeek": "Sunday",
+          "workouts": [{ "id": "w4-sun", "sport": "run", "type": "long", "name": "Long Run — krótszy", "description": "14–15km easy @ 5:05–5:20/km\n\nDłużej niż normalny tydzień, ale 7km krótszy od szczytu. Odbudowa energii.", "durationMinutes": 77, "distanceKm": 15, "primaryZone": "Zone 2", "completed": false }]
+        }
+      ],
+      "summary": { "totalKm": 40, "bySport": { "run": { "sessions": 5, "km": 40 } } }
+    },
+    {
+      "weekNumber": 5,
+      "startDate": "2026-05-25",
+      "endDate": "2026-05-31",
+      "phase": "Race-Specific Peak",
+      "focus": "Pierwsze długie bloki w tempie półmaratońskim. Budowanie pewności siebie co do tempa wyścigu.",
+      "targetKm": 65,
+      "isRecoveryWeek": false,
+      "days": [
+        {
+          "date": "2026-05-25",
+          "dayOfWeek": "Monday",
+          "workouts": [{ "id": "w5-mon", "sport": "strength", "type": "strength", "name": "Siłownia — maintenance", "description": "Trening siłowy w trybie podtrzymującym: 2 serie zamiast 3, ten sam ciężar.", "completed": false }]
+        },
+        {
+          "date": "2026-05-26",
+          "dayOfWeek": "Tuesday",
+          "workouts": [{ "id": "w5-tue", "sport": "run", "type": "race-specific", "name": "HM Pace Long Intervals", "description": "Rozgrzewka 2,5km easy\nGłówna: 4 x 3km @ 3:53–3:57/km (tempo wyścigu) / 2' trucht\nWychłodzenie: 2km easy\nŁącznie: ~17km\n\nTo jest serce przygotowań. 12km łącznie w tempie wyścigu uczy ciało dokładnie tego, czego potrzebujesz 20 czerwca.", "durationMinutes": 85, "distanceKm": 17, "primaryZone": "Zone 3-4", "completed": false }]
+        },
+        {
+          "date": "2026-05-27",
+          "dayOfWeek": "Wednesday",
+          "workouts": [{ "id": "w5-wed", "sport": "run", "type": "easy", "name": "Easy Recovery", "description": "10km easy @ 5:10–5:25/km\nBez żadnej intensywności.", "durationMinutes": 53, "distanceKm": 10, "primaryZone": "Zone 1-2", "completed": false }]
+        },
+        {
+          "date": "2026-05-28",
+          "dayOfWeek": "Thursday",
+          "workouts": [{ "id": "w5-thu", "sport": "run", "type": "threshold", "name": "Threshold + HM pace combo", "description": "Rozgrzewka 2km\nGłówna:\n  — 2 x 2km @ 3:50/km (threshold) / 2'\n  — 2 x 2km @ 3:55/km (HM pace) / 2'\nWychłodzenie: 2km easy\nŁącznie: ~14km\n\nKombo: podbijasz threshold żeby HM pace czuło się wolniej.", "durationMinutes": 72, "distanceKm": 14, "primaryZone": "Zone 4", "completed": false }]
+        },
+        {
+          "date": "2026-05-29",
+          "dayOfWeek": "Friday",
+          "workouts": [{ "id": "w5-fri", "sport": "rest", "type": "rest", "name": "Odpoczynek", "description": "Pełny odpoczynek.", "completed": false }]
+        },
+        {
+          "date": "2026-05-30",
+          "dayOfWeek": "Saturday",
+          "workouts": [{ "id": "w5-sat", "sport": "run", "type": "track", "name": "Track — grupa (VO2 / threshold)", "description": "Trening z grupą. W tej fazie VO2 to najbardziej wartościowe co może się wydarzyć.\n\nJeśli 1000m repy: trzymaj 3:38–3:42/km.\nJeśli threshold: 3:50/km.", "durationMinutes": 65, "distanceKm": 13, "primaryZone": "Zone 4-5", "completed": false }]
+        },
+        {
+          "date": "2026-05-31",
+          "dayOfWeek": "Sunday",
+          "workouts": [{ "id": "w5-sun", "sport": "run", "type": "long", "name": "Long Run z HM Tempo Finale", "description": "20km łącznie:\n— Pierwsze 13km easy @ 5:00–5:15/km\n— Km 13–18: @ 4:00–4:05/km (steady/HM)\n— Ostatnie 2km easy\n\nSymulacja końcówki wyścigu na zmęczonych nogach.", "durationMinutes": 108, "distanceKm": 20, "primaryZone": "Zone 2-3", "completed": false }]
+        }
+      ],
+      "summary": { "totalKm": 65, "bySport": { "run": { "sessions": 5, "km": 65 } } }
+    },
+    {
+      "weekNumber": 6,
+      "startDate": "2026-06-01",
+      "endDate": "2026-06-07",
+      "phase": "Race-Specific Peak",
+      "focus": "Szczyt fazy wyścigowej. Ostatni tydzień z pełnym obciążeniem. Symulacja wyścigu.",
+      "targetKm": 65,
+      "isRecoveryWeek": false,
+      "days": [
+        {
+          "date": "2026-06-01",
+          "dayOfWeek": "Monday",
+          "workouts": [{ "id": "w6-mon", "sport": "strength", "type": "strength", "name": "Siłownia — maintenance", "description": "2 serie, lekki ciężar. Ostatni raz siłownia przed taperem.", "completed": false }]
+        },
+        {
+          "date": "2026-06-02",
+          "dayOfWeek": "Tuesday",
+          "workouts": [{ "id": "w6-tue", "sport": "run", "type": "race-specific", "name": "Race Simulation — dłuższy blok", "description": "Rozgrzewka 3km easy\nGłówna: 14km @ 3:55–3:58/km (tempo wyścigu)\nWychłodzenie: 1km easy\nŁącznie: ~18km\n\nTo jest najbliższe symulatora wyścigu. Utrzymanie tempa przez 14km da ci pewność siebie na start.", "durationMinutes": 92, "distanceKm": 18, "primaryZone": "Zone 3-4", "completed": false }]
+        },
+        {
+          "date": "2026-06-03",
+          "dayOfWeek": "Wednesday",
+          "workouts": [{ "id": "w6-wed", "sport": "run", "type": "easy", "name": "Easy Recovery", "description": "9–10km very easy @ 5:15–5:30/km\nNogi mogą być ciężkie po wczorajszym — to normalne.", "durationMinutes": 52, "distanceKm": 10, "primaryZone": "Zone 1-2", "completed": false }]
+        },
+        {
+          "date": "2026-06-04",
+          "dayOfWeek": "Thursday",
+          "workouts": [{ "id": "w6-thu", "sport": "run", "type": "threshold", "name": "Threshold Tune-Up", "description": "Rozgrzewka 2km\nGłówna: 3 x 2km @ 3:50/km / 90\"\nWychłodzenie: 2km\nŁącznie: ~12km\n\nOstatnia porządna sesja threshold. Przyspieszenie żeby HM pace czuło się łatwo.", "durationMinutes": 62, "distanceKm": 12, "primaryZone": "Zone 4", "completed": false }]
+        },
+        {
+          "date": "2026-06-05",
+          "dayOfWeek": "Friday",
+          "workouts": [{ "id": "w6-fri", "sport": "rest", "type": "rest", "name": "Odpoczynek", "description": "Pełny odpoczynek.", "completed": false }]
+        },
+        {
+          "date": "2026-06-06",
+          "dayOfWeek": "Saturday",
+          "workouts": [{ "id": "w6-sat", "sport": "run", "type": "track", "name": "Track — ostatnie VO2", "description": "Ostatni trening z grupą z pełną intensywnością.\nJeśli VO2: 4–5 x 1000m @ 3:38–3:42/km — nie więcej.\nJeśli threshold: 3–4 x 2km @ 3:50/km.\n\nOdczuj szybkość — za 2 tygodnie wyścig.", "durationMinutes": 60, "distanceKm": 12, "primaryZone": "Zone 4-5", "completed": false }]
+        },
+        {
+          "date": "2026-06-07",
+          "dayOfWeek": "Sunday",
+          "workouts": [{ "id": "w6-sun", "sport": "run", "type": "long", "name": "Last Long Run — easy", "description": "17–18km easy @ 5:05–5:20/km\nBez progresji. Ostatni naprawdę długi bieg.\n\nZapamiętaj to uczucie — za 2 tygodnie przebiegasz tę samą odległość ale szybko.", "durationMinutes": 93, "distanceKm": 18, "primaryZone": "Zone 2", "completed": false }]
+        }
+      ],
+      "summary": { "totalKm": 65, "bySport": { "run": { "sessions": 5, "km": 65 } } }
+    },
+    {
+      "weekNumber": 7,
+      "startDate": "2026-06-08",
+      "endDate": "2026-06-14",
+      "phase": "Taper",
+      "focus": "Taper — objętość -35%, intensywność zostaje. Nogi ładują się na wyścig.",
+      "targetKm": 42,
+      "isRecoveryWeek": false,
+      "days": [
+        {
+          "date": "2026-06-08",
+          "dayOfWeek": "Monday",
+          "workouts": [{ "id": "w7-mon", "sport": "strength", "type": "strength", "name": "Siłownia — bardzo lekka", "description": "Tylko mobilność i core. Bez ciężarów. Skupienie na rozluźnieniu bioder.", "completed": false }]
+        },
+        {
+          "date": "2026-06-09",
+          "dayOfWeek": "Tuesday",
+          "workouts": [{ "id": "w7-tue", "sport": "run", "type": "race-specific", "name": "HM Pace Reps — skrócone", "description": "Rozgrzewka 2km easy\nGłówna: 3 x 2km @ 3:53–3:57/km / 2' trucht\nWychłodzenie: 2km easy\nŁącznie: ~10km\n\nNogi powinny czuć tempo wyścigu jako 'znajome'. To nie jest czas na PR — to jest zapamiętywanie rytmu.", "durationMinutes": 52, "distanceKm": 10, "primaryZone": "Zone 3-4", "completed": false }]
+        },
+        {
+          "date": "2026-06-10",
+          "dayOfWeek": "Wednesday",
+          "workouts": [{ "id": "w7-wed", "sport": "run", "type": "easy", "name": "Easy + strides", "description": "8km easy\n6 x 20\" stride\n\nNogi zaczynają czuć się lekkie — dobry znak.", "durationMinutes": 43, "distanceKm": 8, "primaryZone": "Zone 2", "completed": false }]
+        },
+        {
+          "date": "2026-06-11",
+          "dayOfWeek": "Thursday",
+          "workouts": [{ "id": "w7-thu", "sport": "run", "type": "easy", "name": "Easy Run", "description": "8km easy @ 5:00–5:20/km\nNic specjalnego.", "durationMinutes": 43, "distanceKm": 8, "primaryZone": "Zone 2", "completed": false }]
+        },
+        {
+          "date": "2026-06-12",
+          "dayOfWeek": "Friday",
+          "workouts": [{ "id": "w7-fri", "sport": "rest", "type": "rest", "name": "Odpoczynek", "description": "Pełny odpoczynek.", "completed": false }]
+        },
+        {
+          "date": "2026-06-13",
+          "dayOfWeek": "Saturday",
+          "workouts": [{ "id": "w7-sat", "sport": "run", "type": "track", "name": "Track — lekko z grupą", "description": "Jeśli idzie z grupą — biegnij ale nie morduj się.\n3–4 x 1km @ 3:45–3:50/km. Nie więcej.\n\nAlternatywnie: 10km easy z kilkoma przyspieszeniami.", "durationMinutes": 50, "distanceKm": 10, "primaryZone": "Zone 3-4", "completed": false }]
+        },
+        {
+          "date": "2026-06-14",
+          "dayOfWeek": "Sunday",
+          "workouts": [{ "id": "w7-sun", "sport": "run", "type": "easy", "name": "Easy Run — krótki", "description": "12km easy @ 5:05–5:20/km\n\nOstatni 'porządny' bieg przed wyścigiem. Ciesz się tym.", "durationMinutes": 63, "distanceKm": 12, "primaryZone": "Zone 2", "completed": false }]
+        }
+      ],
+      "summary": { "totalKm": 42, "bySport": { "run": { "sessions": 5, "km": 42 } } }
+    },
+    {
+      "weekNumber": 8,
+      "startDate": "2026-06-15",
+      "endDate": "2026-06-20",
+      "phase": "Race Week",
+      "focus": "Tydzień wyścigu. Minimalne bieganie, maksymalny odpoczynek, gotowość psychiczna.",
+      "targetKm": 18,
+      "isRecoveryWeek": false,
+      "days": [
+        {
+          "date": "2026-06-15",
+          "dayOfWeek": "Monday",
+          "workouts": [{ "id": "w8-mon", "sport": "rest", "type": "rest", "name": "Odpoczynek / lekkie rozciąganie", "description": "Brak siłowni. Spacer, mobilność, rolowanie.", "completed": false }]
+        },
+        {
+          "date": "2026-06-16",
+          "dayOfWeek": "Tuesday",
+          "workouts": [{ "id": "w8-tue", "sport": "run", "type": "easy", "name": "Easy Run z przyspieszeniami", "description": "6km easy\n5 x 20\" @ tempo wyścigu (3:55/km) żeby przypomnieć nogom tempo\n\nKrótko. Świeżo.", "durationMinutes": 33, "distanceKm": 6, "primaryZone": "Zone 2", "completed": false }]
+        },
+        {
+          "date": "2026-06-17",
+          "dayOfWeek": "Wednesday",
+          "workouts": [{ "id": "w8-wed", "sport": "run", "type": "easy", "name": "Easy Shakeout", "description": "5km very easy\nBez żadnej intensywności.\n\nJeśli czujesz się 'za wypoczęty' — to dobry znak.", "durationMinutes": 28, "distanceKm": 5, "primaryZone": "Zone 1", "completed": false }]
+        },
+        {
+          "date": "2026-06-18",
+          "dayOfWeek": "Thursday",
+          "workouts": [{ "id": "w8-thu", "sport": "rest", "type": "rest", "name": "Odpoczynek", "description": "Pełny odpoczynek. Spakuj rzeczy na wyścig, sprawdź trasę, zaplanuj logistykę.", "completed": false }]
+        },
+        {
+          "date": "2026-06-19",
+          "dayOfWeek": "Friday",
+          "workouts": [{ "id": "w8-fri", "sport": "run", "type": "easy", "name": "Pre-race shakeout", "description": "3–4km bardzo easy + 4 x 30\" @ tempo wyścigu\n\nTylko żeby się rozruszać. Wróć do domu i odpoczywaj.", "durationMinutes": 22, "distanceKm": 4, "primaryZone": "Zone 1-2", "completed": false }]
+        },
+        {
+          "date": "2026-06-20",
+          "dayOfWeek": "Saturday",
+          "workouts": [{ "id": "w8-race", "sport": "run", "type": "race", "name": "🏁 PÓŁMARATON — START!", "description": "CEL A: sub 1:22:00 (3:53/km)\nCEL B: sub 1:23:00 (3:56/km)\n\nSTRATEGIA WYŚCIGU:\n\n📌 Km 0–3: Zacznij od 4:00–4:02/km. Nie szybciej. Adrenalina skłamie ci że jest łatwo.\n\n📌 Km 3–15: Ustabilizuj @ 3:55–3:58/km. Poczuj rytm. Kontrola — nie walka.\n\n📌 Km 15–19: Sprawdź zapasy. Jeśli HR poniżej 167 i nogi działają — przyspiesz do 3:53/km.\n\n📌 Km 19–21.1: Wszystko co zostało. Finisz.\n\n❤️ KONTROLA HR:\nKm 0–3: poniżej 158 bpm\nKm 3–15: 160–166 bpm (LTHR)\nKm 15–21: do 169 bpm\n\n🍌 ŻYWIENIE:\n1 żel energetyczny przed startem (15–20 min)\nWoda na każdym punkcie od km 5\nOpcjonalnie żel na km 10–12 jeśli wyścig trwa powyżej 80 min\n\n💬 MANTRA na trudne kilometry:\n'Trenowałem to. Znam to tempo. Zaufaj.'", "distanceKm": 21.1, "primaryZone": "Zone 4", "completed": false }]
+        }
+      ],
+      "summary": { "totalKm": 18, "bySport": { "run": { "sessions": 4, "km": 18 } } }
+    }
+  ],
+  "raceStrategy": {
+    "event": {
+      "name": "Półmaraton — 20 czerwca 2026",
+      "date": "2026-06-20",
+      "type": "Half Marathon",
+      "distances": { "run": 21.1 }
+    },
+    "goalTimes": {
+      "primary": "1:23:00 (3:56/km)",
+      "stretch": "1:22:00 (3:53/km)",
+      "basis": "HM March 2026: 1:24:36 @ HR 163.8 avg. 8 weeks race-specific training = ~1.5-2.5 min improvement."
+    },
+    "pacing": {
+      "run": {
+        "km_0_3": "4:00–4:02/km — conservative start, let field spread",
+        "km_3_15": "3:55–3:58/km — race pace, control HR below 166",
+        "km_15_19": "3:53–3:55/km — if HR <167 and legs OK, push",
+        "km_19_finish": "Everything left"
+      }
+    },
+    "heartRate": {
+      "lthr": 165,
+      "km_0_3_ceiling": 158,
+      "km_3_15_range": "160–166",
+      "km_15_finish_ceiling": 169
+    },
+    "nutrition": {
+      "preRace": "Kolacja dzień przed: makaron, mało błonnika. Śniadanie 2–3h przed: 100g węglowodanów (owsianka/tost/banan). 1 żel 15 min przed startem.",
+      "during": "Woda od km 5 na każdym punkcie. Opcjonalnie żel na km 10–12.",
+      "caffeine": "Żel z kofeiną na km 14–16 opcjonalnie (przetestuj wcześniej)"
+    },
+    "taper": {
+      "startDate": "2026-06-08",
+      "volumeReduction": "35% taper wk1, 60% race week",
+      "notes": "Utrzymaj intensywność, zmniejsz objętość. Nogi będą się czuć 'za lekkie' — to plan działa."
+    },
+    "keyCoachingNotes": [
+      "Twój marcowy HM był biegany na HR 163.8 — idealnie w LTHR. To pokazuje doskonałą kontrolę wysiłku.",
+      "Główny cel treningu: nauczyć cię biegnąć 3:53–3:57/km przez 21km, nie tylko przez 5–10km.",
+      "Sobotnie treningi grupowe są złotą wartością — nie rezygnuj z nich, ale nie ścigaj się przez całą sesję.",
+      "Najważniejsza adaptacja w tym planie to wytrzymałość progowa — stąd wydłużone bloki threshold i symulacje wyścigu.",
+      "Taper będzie niekomfortowy psychicznie. Nogi będą się czuć ciężkie, potem nagle lekkie. Zaufaj procesowi."
+    ]
+  }
+}
